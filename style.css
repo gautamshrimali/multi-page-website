@@ -1,0 +1,58 @@
+html,body {
+    margin: 0;
+    height: 100%;
+   
+}
+
+/* Body ko flex container banaya */
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+}
+
+/* main content full space lega */
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* common container */
+.container {
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Nav links */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Active page highlight */
+nav a.active{
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+footer {
+    padding:0%;
+    margin:5px;
+}
