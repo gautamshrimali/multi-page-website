@@ -18,3 +18,8 @@ This project is created as part of a Web Development Internship.
 - CSS3 (Flexbox)
 
 This project demonstrates proper folder structure, reusable CSS, and responsive design.
+
+## Task 5
+- Built validated contact form using HTML5
+- Used required, pattern, maxlength
+- Styled form using CSS
