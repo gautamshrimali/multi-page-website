@@ -13,6 +13,7 @@ body {
 }
 
 /* main content full space lega */
+
 .main-content {
     flex: 1;
     padding: 20px;
@@ -43,6 +44,47 @@ nav a.active{
     text-decoration: underline;
 }
 
+/* CONTECT FORM  */
+.contact-form {
+    max-width: 400px;
+    border: 2px dolid #ccc;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 17px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #26374b;
+}
 /* Footer */
 footer {
     background-color: #333;
